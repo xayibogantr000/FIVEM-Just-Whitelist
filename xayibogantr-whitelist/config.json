@@ -1,1 +1,21 @@
-config icin xayibogantr#1234
+{
+    "token": "",  //token
+    "prefix": "", //yazmasanızda olur
+    "admin_roleid": "",  //yazmasanızda olur
+    "discord_whitelist": {
+         "active": true, //kalsin
+         "role_id": "",        //whitelist icin rol id
+         "server_id": ""       //guild id
+    },
+    "useQB": true,         //buralari ellemeye gerek yok.
+    "old_esx": {
+         "user_accounts": false,
+         "user_inventory": false
+    },
+    "identifier": "license",
+    "wipe_tables": [
+         {"table": "players", "owner": "citizenid"},
+         {"table": "addon_account_data", "owner": "owner"}
+    ],
+    "discord_link": "https://discord.gg/endv"     //url atin.
+}

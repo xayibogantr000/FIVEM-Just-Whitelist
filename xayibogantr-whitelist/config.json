@@ -17,5 +17,5 @@
          {"table": "players", "owner": "citizenid"},
          {"table": "addon_account_data", "owner": "owner"}
     ],
-    "discord_link": "https://discord.gg/endv"     //url atin.
+    "discord_link": "https://discord.gg/"     //url atin.
 }
